@@ -1,0 +1,8 @@
+.navContainer {
+    position: fixed;
+    top: 0;
+}
+
+.navBar {
+    background-color: transparent;
+}

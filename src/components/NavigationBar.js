@@ -4,8 +4,8 @@ import { Navbar, Nav } from 'rsuite';
 
 function NavigationBar() {
     return(
-        <div>
-            <Navbar>
+        <div className="navContainer">
+            <Navbar className="navBar">
                 <Navbar.Body>
                     <Nav>
                         <Nav.Item>Home</Nav.Item>
