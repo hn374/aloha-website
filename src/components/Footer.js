@@ -11,7 +11,7 @@ function Footer() {
                     <p>The Aloha! Network offers a unique 1.8+ KitPvP experience enhanced with LabyMod voice chat, allowing players to communicate in-game and play together across the server. With an active administration team, you can be sure that Aloha will be there for our players and provide them the best experience possible.</p>
                 </div>
                 <div className="rightFooterContainer">
-                    <img className="logoImage" src={Logo} alt="Logo"></img>
+                    <img className="logoImage" src={ Logo } alt="Logo"></img>
                 </div>
             </div>
             <BottomFooter></BottomFooter>

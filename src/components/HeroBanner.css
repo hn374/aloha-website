@@ -1,0 +1,26 @@
+.backgroundImage {
+    width: 100vw;
+    height: 380px;
+    /* height: inherit; */
+    opacity: 0.5;
+}
+
+.imageContainer {
+    height: 380px;
+    width: 100vw;
+    background-image: linear-gradient(0deg, hsla(209, 23%, 60%, .5), hsla(209, 23%, 60%, .5)), url('../assets/aloha_background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.heroBannerContainer {
+    position: fixed;
+    top: 0;
+}
+
+.heroBannerLogoImage {
+    margin-top: 116px;
+    height: 281px;
+    width: 281px;
+}

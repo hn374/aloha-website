@@ -5,9 +5,9 @@ import { Navbar, Nav } from 'rsuite';
 function NavigationBar() {
     return(
         <div className="navContainer">
-            <Navbar className="navBar">
+            {/* <Navbar className="navBar">
                 <Navbar.Body>
-                    <Nav>
+                    <Nav className="navBar">
                         <Nav.Item>Home</Nav.Item>
                         <Nav.Item>Rules</Nav.Item>
                         <Nav.Item>Store</Nav.Item>
@@ -15,7 +15,14 @@ function NavigationBar() {
                         <Nav.Item>Support</Nav.Item>
                     </Nav>
                 </Navbar.Body>
-            </Navbar>
+            </Navbar> */}
+            <div class="navigationBar">
+                <a>Home</a>
+                <a>Rules</a>
+                <a>Store</a>
+                <a>Scores</a>
+                <a>Support</a>
+            </div>
         </div>
     );
 }

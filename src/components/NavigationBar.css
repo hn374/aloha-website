@@ -1,8 +1,27 @@
 .navContainer {
-    position: fixed;
-    top: 0;
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+
 }
 
-.navBar {
+.navigationBar {
+    overflow: hidden;
     background-color: transparent;
+    height: 64px;
+    margin-top: 16px;
 }
+
+.navigationBar a {
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.navigationBar a:hover {
+    color: #E5E5E5;
+    cursor: pointer;
+  }
