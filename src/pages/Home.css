@@ -1,4 +1,18 @@
 .homeContainer {
-    height: 900px;
     width: 100vw;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.homeInnerContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.homeSidebar {
+    flex: 1;
+}
+
+.homeAnnouncement {
+    flex: 2;
 }

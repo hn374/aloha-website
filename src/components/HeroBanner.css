@@ -1,7 +1,6 @@
 .backgroundImage {
     width: 100vw;
     height: 380px;
-    /* height: inherit; */
     opacity: 0.5;
 }
 
@@ -15,7 +14,6 @@
 }
 
 .heroBannerContainer {
-    position: fixed;
     top: 0;
 }
 

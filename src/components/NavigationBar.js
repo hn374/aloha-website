@@ -1,28 +1,35 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './NavigationBar.css';
-import { Navbar, Nav } from 'rsuite';
+import { Route, Link, BrowserRouter as Router } from 'react-router-dom'
+import Home from '../pages/Home';
 
 function NavigationBar() {
     return(
         <div className="navContainer">
-            {/* <Navbar className="navBar">
-                <Navbar.Body>
-                    <Nav className="navBar">
-                        <Nav.Item>Home</Nav.Item>
-                        <Nav.Item>Rules</Nav.Item>
-                        <Nav.Item>Store</Nav.Item>
-                        <Nav.Item>Scores</Nav.Item>
-                        <Nav.Item>Support</Nav.Item>
-                    </Nav>
-                </Navbar.Body>
-            </Navbar> */}
-            <div class="navigationBar">
-                <a>Home</a>
-                <a>Rules</a>
-                <a>Store</a>
-                <a>Scores</a>
-                <a>Support</a>
-            </div>
+            <Router>
+                <div class="navigationBar">
+                    <a>
+                        <Link to="/">Home</Link>
+                    </a>
+                    <a>
+                        <Link to="/rules">Rules</Link>
+                    </a>
+                    <a>
+                        <Link to="/store">Store</Link>
+                    </a>
+                    <a>
+                        <Link to="/scores">Scores</Link>
+                    </a>
+                    <a>
+                        <Link to="/support">Support</Link>
+                    </a>
+                    <Route exact path="/" component={ Home } />
+                    <Route path="/rules" component={ Home } />
+                    <Route path="/store" component={ Home } />
+                    <Route path="/scores" component={ Home } />
+                    <Route path="/support" component={ Home } />
+                </div>
+            </Router>
         </div>
     );
 }

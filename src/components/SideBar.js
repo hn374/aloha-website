@@ -4,7 +4,7 @@ import './SideBar.css';
 
 function SideBar() {
     return(
-        <div>Hello World</div>
+        <div>Sidebar</div>
     );
 }
 
