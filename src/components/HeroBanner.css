@@ -20,7 +20,40 @@
 }
 
 .heroBannerLogoImage {
-    margin-top: 116px;
     height: 281px;
     width: 281px;
+}
+
+.logoContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 116px;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.discordButton {
+    display: flex;
+    justify-content: center;
+    margin-left: 72px;
+}
+
+.discordIcon {
+    height: 64px;
+    width: 64px;
+    margin-right: 12px;
+}
+
+.serverButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 72px;
+}
+
+.gamingIcon {
+    height: 64px;
+    width: 64px;
+    margin-left: 12px;
 }
