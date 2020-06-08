@@ -2,4 +2,29 @@
     background-color: #32393d;
     border-radius: 20px;
     padding: 20px 20px;
+    margin-right: 24px;
+}
+
+.announcement {
+    background-color: #2b3135;
+    border-radius: 20px;
+    padding: 10px 20px 20px 20px;
+    margin: 40px 10px;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-align: left;
+}
+
+.paragraphText {
+    font-size: 16px;
+}
+
+.announcementTitle {
+    font-size: 30px;
+    font-weight: bold;
+    /* background-color: #5A5858; */
+}
+
+.author {
+    font-size: 18px;
+    color: red;
 }
