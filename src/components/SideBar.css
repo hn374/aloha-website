@@ -1,0 +1,32 @@
+.sidebarContainer {
+    text-align: left;
+    background-color: #32393d;
+    border-radius: 20px;
+    padding: 20px 20px;
+    margin-right: 24px;
+}
+
+.socialContainer {
+    display: flex;
+    align-items: center;
+}
+
+.socialIcons {
+    margin-right: 8px;
+    padding-top: 8px;
+}
+
+.socialHeaders {
+    margin-right: 8px;
+    font-weight: bold;
+}
+
+.socialLinks {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.socialLinks :hover{
+    text-decoration: none;
+}

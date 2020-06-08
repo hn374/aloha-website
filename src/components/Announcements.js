@@ -4,8 +4,8 @@ import './Announcements.css';
 
 function AnnouncementsBoard() {
     return(
-        <div>
-            <h1>Announcements Header</h1>
+        <div className="announcementsContainer">
+            <h1>Announcements</h1>
             <div>Insert Announcements Here</div>
             <Announcement></Announcement>
         </div>
