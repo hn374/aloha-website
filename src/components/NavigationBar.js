@@ -9,13 +9,13 @@ function NavigationBar() {
             <Router>
                 <div class="navigationBar">
                     <a>
-                        <Link to="/">Home</Link>
+                        <Link to="/store">Store</Link>
                     </a>
                     <a>
                         <Link to="/rules">Rules</Link>
                     </a>
-                    <a>
-                        <Link to="/store">Store</Link>
+                    <a className="homeButton">
+                        <Link to="/">Home</Link>
                     </a>
                     <a>
                         <Link to="/scores">Scores</Link>

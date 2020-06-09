@@ -5,11 +5,13 @@ import { FaDiscord, FaTwitter, FaStore } from 'react-icons/fa';
 
 function SideBar() {
     return(
-        <div className="sidebarContainer">
-            {/* <SocialMediaLink socialIcon={<MdWeb />} socialHeader="WEBSITE" socialLink="aloha.gg"></SocialMediaLink> */}
-            <SocialMediaLink socialIcon={<FaStore />} socialHeader="STORE" socialLink="shop.aloha.gg"></SocialMediaLink>
-            <SocialMediaLink socialIcon={<FaTwitter />} socialHeader="TWITTER" socialLink="@alohadotgg"></SocialMediaLink>
-            <SocialMediaLink socialIcon={<FaDiscord />} socialHeader="DISCORD" socialLink="discord.aloha.gg"></SocialMediaLink>
+        <div>
+            <div className="sidebarContainer">
+                <SocialMediaLink socialIcon={<FaStore />} socialHeader="STORE" socialLink="shop.aloha.gg"></SocialMediaLink>
+                <SocialMediaLink socialIcon={<FaTwitter />} socialHeader="TWITTER" socialLink="@alohadotgg"></SocialMediaLink>
+                <SocialMediaLink socialIcon={<FaDiscord />} socialHeader="DISCORD" socialLink="discord.aloha.gg"></SocialMediaLink>
+            </div>
+            <RecentAnnouncements></RecentAnnouncements>
         </div>
     );
 }
@@ -22,6 +24,19 @@ function SocialMediaLink(props) {
             <a href={"https://www." + props.socialLink }><span className="socialLinks">{ props.socialLink }</span></a>
         </div>
     )
+}
+
+function RecentAnnouncements() {
+    return(
+        <div className="recentAnnouncements">
+            <h1 className="recentHeader">Recent Announcements</h1>
+            <div className="allAnnouncements">
+                <div>Free Dogs</div>
+                <div>Free Ice Cream</div>
+                <div>Free Mods</div>
+            </div>
+        </div>
+    );
 }
 
 export default SideBar;

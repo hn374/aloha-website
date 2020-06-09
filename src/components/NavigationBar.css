@@ -15,7 +15,7 @@
 .navigationBar a {
     color: #f2f2f2;
     text-align: center;
-    padding: 14px 16px;
+    padding: 10px 16px;
     text-decoration: none;
     font-size: 17px;
     font-weight: bold;
@@ -24,4 +24,21 @@
 .navigationBar a:hover {
     color: #E5E5E5;
     cursor: pointer;
-  }
+}
+
+.homeButton {
+    background-color: #829ab1;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-top-left-radius: 42px 100%;
+    border-top-right-radius: 42px 100%;
+    border-bottom-left-radius: 42px 100%;
+    border-bottom-right-radius: 42px 100%;
+    border-bottom: 3px solid rgba(0,0,0,0.2);
+}
+
+.homeButton:hover, .homeButton:focus {
+    box-shadow: 0 0 0 white;
+    outline: none;
+    border-bottom: none;
+}
