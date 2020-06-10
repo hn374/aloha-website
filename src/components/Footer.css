@@ -4,7 +4,6 @@
 
 .topFooterContainer {
     background-color: #2b3135;
-    /* min-height: 236px; */
     height: 236px;
     display: flex;
 }
@@ -13,17 +12,18 @@
     background-color: #32393d;
     min-height: 70px;
     width: 100vw;
-    font-size: 16px;
+    font-size: 15px;
     display: flex;
     justify-content: center;
     align-items: center;
     color: #abb2b9;
     font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 900;
 }
 
 .leftFooterContainer {
     padding-top: 48px;
-    padding-left: 24px;
+    padding-left: 150px;
     text-align: left;
     font-size: 16px;
     flex: 1;
@@ -31,6 +31,7 @@
 }
 
 .rightFooterContainer {
+    padding-right: 150px;
     flex: 1;
     display: flex;
     justify-content: flex-end;
@@ -39,10 +40,28 @@
 
 .topHeader {
     margin-bottom: 12px;
+    color: #9099a2;
+    font-size: 14px;
 }
 
 .logoImage {
     height: 110px;
     width: 110px;
     margin-right: 24px;
+    opacity: 0.2;
+    filter: grayscale(1);
+}
+
+.footerText {
+    color: #677079;
+    font-size: 14px;
+}
+
+.alohaLink {
+    color: #9099a2;
+    font-weight: 900;
+    background-color: #32393d;
+    border-radius: 20px;
+    padding: 5px 16px;
+    margin-left: 8px;
 }

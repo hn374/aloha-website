@@ -2,16 +2,17 @@
     text-align: left;
     background-color: #2B3235;
     border-radius: 20px;
-    padding: 20px 20px;
     margin-right: 24px;
-    max-height: 170px;
     margin-left: 24px;
+    padding-bottom: 20px;
     font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .socialContainer {
     display: flex;
     align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .socialIcons {
@@ -40,8 +41,6 @@
     background-color: #2B3235;
     margin-top: 24px;
     border-radius: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
     padding-bottom: 20px;
     margin-right: 24px;
     margin-left: 24px;
@@ -52,10 +51,25 @@
     font-size: 30px;
     font-weight: bold;
     color: #AEB5BB;
+    background-color: #394046;
+    padding-left: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
 
 .allAnnouncements {
     font-weight: bold;
     font-size: 22px;
     color: #abb2b9;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.socialMediaHeader {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    font-size: 30px;
+    padding-left: 20px;
+    color: #AEB5BB;
+    background-color: #394046;
 }

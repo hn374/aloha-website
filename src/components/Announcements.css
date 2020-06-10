@@ -1,21 +1,29 @@
 .announcementsContainer {
     background-color: #2B3235;
     border-radius: 20px;
-    padding: 20px 20px;
     margin-right: 24px;
 }
 
 .announcement {
-    background-color: #2b3135;
+    /* background-color: #2b3135; */
+    background-color: hsl(207, 11%, 22%);
     border-radius: 20px;
     padding: 10px 20px 20px 20px;
-    margin: 40px 10px;
+    margin: 30px 10px;
     font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-align: left;
 }
 
 .announceHeader {
     color: #AEB5BB;
+    background-color: #394046;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    text-align: left;
+    padding-left: 30px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-size: 40px;
 }
 
 .paragraphText {

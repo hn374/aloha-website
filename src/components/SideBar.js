@@ -7,6 +7,7 @@ function SideBar() {
     return(
         <div>
             <div className="sidebarContainer">
+                <h1 className="socialMediaHeader">Social Media</h1>
                 <SocialMediaLink socialIcon={<FaStore />} socialHeader="STORE" socialLink="shop.aloha.gg"></SocialMediaLink>
                 <SocialMediaLink socialIcon={<FaTwitter />} socialHeader="TWITTER" socialLink="@alohadotgg"></SocialMediaLink>
                 <SocialMediaLink socialIcon={<FaDiscord />} socialHeader="DISCORD" socialLink="discord.aloha.gg"></SocialMediaLink>
