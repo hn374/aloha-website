@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@800&display=swap');
+
 .sidebarContainer {
     text-align: left;
     background-color: #2B3235;
@@ -13,6 +15,7 @@
     align-items: center;
     padding-left: 20px;
     padding-right: 20px;
+    font-family: 'Nunito Sans', sans-serif;
 }
 
 .socialIcons {
@@ -44,7 +47,7 @@
     padding-bottom: 20px;
     margin-right: 24px;
     margin-left: 24px;
-    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
 }
 
 .recentHeader {
@@ -70,6 +73,8 @@
     border-top-right-radius: 20px;
     font-size: 30px;
     padding-left: 20px;
+    margin-bottom: 20px;
     color: #AEB5BB;
     background-color: #394046;
+    font-family: 'Nunito Sans', sans-serif;
 }
