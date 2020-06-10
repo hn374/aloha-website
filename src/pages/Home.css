@@ -1,7 +1,9 @@
 .homeContainer {
     width: 100vw;
-    margin-top: 144px;
+    margin-top: 76px;
     margin-bottom: 100px;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #878A8B;
 }
 
 .homeInnerContainer {

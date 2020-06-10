@@ -5,7 +5,7 @@ import './Announcements.css';
 function AnnouncementsBoard() {
     return(
         <div className="announcementsContainer">
-            <h1>Announcements</h1>
+            <h1 className="announceHeader">Announcements</h1>
             <Announcement 
             title="Free Dogs"
             author="Benjamin Franklin"

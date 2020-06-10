@@ -1,6 +1,6 @@
 .sidebarContainer {
     text-align: left;
-    background-color: #32393d;
+    background-color: #2B3235;
     border-radius: 20px;
     padding: 20px 20px;
     margin-right: 24px;
@@ -22,10 +22,11 @@
 .socialHeaders {
     margin-right: 8px;
     font-weight: bold;
+    color: #AEB5BB;
 }
 
 .socialLinks {
-    color: white;
+    color: #AEB5BB;
     text-decoration: none;
     cursor: pointer;
 }
@@ -36,7 +37,7 @@
 
 .recentAnnouncements {
     text-align: left;
-    background-color: #32393d;
+    background-color: #2B3235;
     margin-top: 24px;
     border-radius: 20px;
     padding-left: 20px;
@@ -50,6 +51,7 @@
 .recentHeader {
     font-size: 30px;
     font-weight: bold;
+    color: #AEB5BB;
 }
 
 .allAnnouncements {

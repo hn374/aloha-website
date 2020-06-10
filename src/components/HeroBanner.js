@@ -13,8 +13,8 @@ function HeroBanner() {
                 <div className="logoContainer">
                     <div className="serverButton">
                         <div>
-                            <div>ALOHA.gg</div>
-                            <div>join 0 online members</div>
+                            <div className="bannerHeader">ALOHA.GG</div>
+                            <div className="bannerText">join 0 online members</div>
                         </div>
                         <div>
                             <FaGamepad className="gamingIcon" />
@@ -26,12 +26,15 @@ function HeroBanner() {
                             <FaDiscord className="discordIcon"/>
                         </div>
                         <div>
-                            <div>DISCORD SERVER</div>
-                            <div>join 154 online members</div>
+                            <div className="bannerHeader">DISCORD SERVER</div>
+                            <div className="bannerText">join 154 online members</div>
                         </div>
                     </div>
                 </div>
             </div>
+            <svg class="curve" xmlns="http://www.w3.org/2000/svg" width="1440" height="40" viewBox="0 0 1440 40">
+                <path d="M0,27.01C239.659,7,479.143,0,718.453,0S1198.28,7,1440,27.01V40H0Z" fill-rule="evenodd"></path>
+            </svg>
         </div>
     );
 }

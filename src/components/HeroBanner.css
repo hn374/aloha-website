@@ -11,6 +11,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .heroBannerContainer {
@@ -26,32 +27,59 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 116px;
+    margin-top: 56px;
     font-size: 17px;
     font-weight: bold;
+    z-index: 100;
+    position: relative;
 }
 
 .discordButton {
+    margin-top: 48px;
     display: flex;
     justify-content: center;
     margin-left: 72px;
+    text-align: left;
 }
 
 .discordIcon {
-    height: 64px;
-    width: 64px;
+    /* height: 64px;
+    width: 64px; */
+    height: 40px;
+    width: 50px;
     margin-right: 12px;
 }
 
 .serverButton {
+    margin-top: 48px;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-right: 72px;
+    text-align: right;
 }
 
 .gamingIcon {
-    height: 64px;
-    width: 64px;
+    height: 40px;
+    width: 50px;
     margin-left: 12px;
+}
+
+.bannerText {
+    color: #f0f4f8;
+    opacity: 0.6;
+    font-size: 14px;
+}
+
+.curve {
+    position: relative;
+    /* fill: white; */
+    fill: #242A2E;
+    width: 100vw;
+    top: -30px;
+}
+
+.bannerHeader {
+    font-size: 16px;
+    font-weight: 900;
 }
