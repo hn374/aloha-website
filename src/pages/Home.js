@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './Home.css';
 import SideBar from '../components/SideBar';
 import AnnouncementsBoard from '../components/Announcements';

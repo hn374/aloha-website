@@ -1,7 +1,9 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './SideBar.css';
 import { FaDiscord, FaTwitter, FaStore } from 'react-icons/fa';
-// import { MdWeb } from 'react-icons/md';
+import * as Scroll from 'react-scroll';
+
+const ScrollLink = Scroll.Link;
 
 function SideBar() {
     return(
@@ -22,7 +24,7 @@ function SocialMediaLink(props) {
         <div className="socialContainer">
             <span className="socialIcons">{ props.socialIcon }</span>
             <span className="socialHeaders">{ props.socialHeader }: </span>
-            <a href={"https://www." + props.socialLink }><span className="socialLinks">{ props.socialLink }</span></a>
+            <a className="socialLinks"href={"https://www." + props.socialLink }><span className="socialLinks">{ props.socialLink }</span></a>
         </div>
     )
 }
@@ -32,9 +34,33 @@ function RecentAnnouncements() {
         <div className="recentAnnouncements">
             <h1 className="recentHeader">Recent Announcements</h1>
             <div className="allAnnouncements">
-                <div>Free Dogs</div>
-                <div>Free Ice Cream</div>
-                <div>Free Mods</div>
+            <ScrollLink 
+                to="freeDog" 
+                spy={true} 
+                smooth={true} 
+                duration={500} 
+                className='recentAnnouncement'
+            >
+                <a className="recentAnnouncement">Free Dogs</a>
+            </ScrollLink> 
+            <ScrollLink 
+                to="freeIceCream" 
+                spy={true} 
+                smooth={true} 
+                duration={500} 
+                className='recentAnnouncement'
+            >
+                <a className="recentAnnouncement">Free Ice Cream</a>
+            </ScrollLink>
+            <ScrollLink 
+                to="freeMods" 
+                spy={true} 
+                smooth={true} 
+                duration={500} 
+                className='recentAnnouncement'
+            >
+                <a className="recentAnnouncement">Free Mods</a>
+            </ScrollLink>
             </div>
         </div>
     );

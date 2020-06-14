@@ -31,11 +31,10 @@
 
 .socialLinks {
     color: #AEB5BB;
-    text-decoration: none;
     cursor: pointer;
 }
 
-.socialLinks :hover{
+a.socialLinks:hover, a.socialLinks:focus {
     text-decoration: none;
 }
 
@@ -56,16 +55,28 @@
     color: #AEB5BB;
     background-color: #394046;
     padding-left: 20px;
+    padding-right: 20px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
 
 .allAnnouncements {
-    font-weight: bold;
-    font-size: 22px;
-    color: #abb2b9;
+    display: flex;
+    flex-direction: column;
     padding-top: 20px;
     padding-left: 20px;
+}
+
+.recentAnnouncement {
+    color: #abb2b9;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+a.recentAnnouncement:hover, a.recentAnnouncement:focus {
+    text-decoration: none;
+    cursor: pointer;
+    color: #abb2b9;
 }
 
 .socialMediaHeader {
