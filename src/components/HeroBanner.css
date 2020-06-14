@@ -27,7 +27,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 56px;
+    margin-top: 68px;
     font-size: 17px;
     font-weight: bold;
     z-index: 100;
@@ -71,7 +71,6 @@
 
 .curve {
     position: relative;
-    /* fill: white; */
     fill: #242A2E;
     width: 100vw;
     top: -30px;
@@ -80,4 +79,14 @@
 .bannerHeader {
     font-size: 16px;
     font-weight: 900;
+}
+
+@media only screen and (min-width: 992px) {
+    .curve {
+        top: -40px;
+    }
+
+    .logoContainer {
+        margin-top: 52px;
+    }
 }

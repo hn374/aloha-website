@@ -32,8 +32,8 @@ function HeroBanner() {
                     </div>
                 </div>
             </div>
-            <svg class="curve" xmlns="http://www.w3.org/2000/svg" width="1440" height="40" viewBox="0 0 1440 40">
-                <path d="M0,27.01C239.659,7,479.143,0,718.453,0S1198.28,7,1440,27.01V40H0Z" fill-rule="evenodd"></path>
+            <svg className="curve" xmlns="http://www.w3.org/2000/svg" width="1440" height="40" viewBox="0 0 1440 20">
+                <path className="path" d="M0,27.01C239.659,7,479.143,0,718.453,0S1198.28,7,1440,27.01V40H0Z" fill-rule="evenodd"></path>
             </svg>
         </div>
     );
